@@ -102,7 +102,6 @@ De acuerdo con esta tabla, la mejor predicción la genera el modelo del XGBoost,
 
 ## Método de Selección 
 
-Se utiliza la técnica de bosques aleatorios, con todas las variables del dataset, se entrena con un tamaño de entrenamiento del 80%. Se toma como decisión considerar importante las variables que tuvieran que en el feature_importance fueran mayores a 0. Las variables importantes que dieron como resultado fueron charge, charge_density, isoelectric_point, K, M, KK, SolventAccessibiliyC1, SolventAccessibiliyC3, ChargeC1, ChargeC3, ChargeT23, SolventAccessibilityD1001, SolventAccessibilityD3001, SolventAccessibilityD3100, ChargeD3001, 
 Se utiliza la técnica de bosques aleatorios, con todas las variables del dataset, se entrena con un tamaño de entrenamiento del 80%. Se toma como decisión considerar importante las variables que tuvieran que en el feature_importance fueran mayores a 0. Las variables importantes que dieron como resultado fueron charge, charge_density, isoelectric_point, K, M, KK, SolventAccessibiliyC1, SolventAccessibiliyC3, ChargeC1, ChargeC3, ChargeT23, SolventAccessibilityD1001, SolventAccessibilityD3001, SolventAccessibilityD3100, ChargeD3001, ChargeD3025, ChargeD3075, ChargeD3100, GearyAuto_AvFlexibility4, GearyAuto_FreeEnergy5, QSOgrant13, QSOSW13.
 
 ## Método de Extracción 
